@@ -1,0 +1,2 @@
+# praktikum
+cuma buat latihan
