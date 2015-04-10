@@ -25,6 +25,7 @@ public class Faktorial {
         int x = 1;
         for (int i = n; i > 0; i--) {
             x *= i;
+            System.out.print(i + " x ");
         }
         System.out.println(", hasil = "+n + "! = " + x);
     }
