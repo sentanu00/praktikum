@@ -18,7 +18,8 @@ public class Fibonaci {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int n, i, fibo;
+        int n, i, fibo, tmp;
+        tmp=0;
         Scanner input = new Scanner(System.in);
         System.out.println(" fibonaci ");
         System.out.print("input angka = ");
@@ -28,7 +29,9 @@ public class Fibonaci {
 
             fibo = fibonaci(i);
             System.out.print(fibo + ", ");
+            tmp=tmp+fibo;
         }
+        System.out.println("total = "+tmpfibo);
     }
 
     public static int fibonaci(int n) {
